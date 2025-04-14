@@ -1,0 +1,51 @@
+h1{
+    position: static;
+}
+.container{
+    display: flex;
+    background-color: blueviolet;
+    position: relative;
+    left: 10px;
+}
+.div-One{
+    position: absolute;
+    left: 185px;
+}
+.div-Tow{
+    position: fixed;
+}
+
+.container-two{
+    display: grid;
+    background-color: black;
+    color: white;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 100px 50px;
+}
+
+.container-Three{
+    background-color: aqua;
+}
+
+.grid-twelve{
+    background-color: red;
+    transform: rotate(20deg);
+    height: 100px;
+    width: 100px;
+}
+.grid-thiteen{
+    transform: scale(2);
+    position: absolute;
+    left: 200px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.grid-fourteen{
+    position: absolute;
+    right: 300px;
+    transform: skew(20deg, 20deg);
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
