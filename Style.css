@@ -1,6 +1,4 @@
-h1{
-    position: static;
-}
+/* display flex position */
 .container{
     display: flex;
     background-color: blueviolet;
@@ -11,10 +9,12 @@ h1{
     position: absolute;
     left: 185px;
 }
-.div-Tow{
-    position: fixed;
+.div-Two{
+    /* position: fixed; */
+    left: 2px;
 }
 
+/* Grid here... */
 .container-two{
     display: grid;
     background-color: black;
@@ -23,7 +23,9 @@ h1{
     grid-template-rows: 200px 100px 50px;
 }
 
+/* (transform rotate scale skew) */
 .container-Three{
+    height: 270px;
     background-color: aqua;
 }
 
@@ -33,6 +35,15 @@ h1{
     height: 100px;
     width: 100px;
 }
+
+.grid-fourteen{
+    position: absolute;
+    right: 30px;
+    transform: skew(20deg, 20deg);
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
 .grid-thiteen{
     transform: scale(2);
     position: absolute;
@@ -41,11 +52,19 @@ h1{
     width: 100px;
     background-color: black;
 }
-.grid-fourteen{
-    position: absolute;
-    right: 300px;
-    transform: skew(20deg, 20deg);
-    height: 100px;
-    width: 100px;
+
+/* Text properties font-size, font-family */
+.comtainer-four{
+    height: 150px;
+    width: 600px;
+    font-size: larger;
+    font-family: sans-serif;
+    text-align: center;
+    /* text-transform: uppercase; */
+    text-transform: lowercase;
+    text-decoration: underline;
     background-color: black;
+    color: yellow;
 }
+ /* Three card here... */
+
