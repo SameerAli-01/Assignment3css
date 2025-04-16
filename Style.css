@@ -1,9 +1,14 @@
+body{
+    background-color: blueviolet;
+}
 /* display flex position */
 .container{
     display: flex;
-    background-color: blueviolet;
+    background-color: red;
     position: relative;
     left: 10px;
+    
+
 }
 .div-One{
     position: absolute;
@@ -42,7 +47,7 @@
     transform: skew(20deg, 20deg);
     height: 100px;
     width: 100px;
-    background-color: black;
+    background-color: white;
 }
 .grid-thiteen{
     transform: scale(2);
@@ -50,7 +55,7 @@
     left: 200px;
     height: 100px;
     width: 100px;
-    background-color: black;
+    background-color: white;
 }
 
 /* Text properties font-size, font-family */
@@ -66,5 +71,38 @@
     background-color: black;
     color: yellow;
 }
- /* Three card here... */
+
+ /* Team simple pabpage and card here... */
+ .card-container{
+    display: flex;
+    flex-wrap :wrap;
+    justify-content: center;
+    gap: 5px;
+ }
+ span{
+    color: aqua;
+ }
+ .card{
+    background-color: blue;
+    font-size: medium;
+    font-family: sans-serif;
+    border-radius: 30px;
+    padding: 15px;
+ }
+ .card img{
+    height: 300px;
+    width: 300px;
+ }
+ .para{
+    color: white;
+ }
+ .contac{
+    display: flex;
+    gap: 40px;
+ }
+ .foot{
+    color: white;
+    text-align: center;
+ }
+ 
 
